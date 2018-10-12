@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PTO V1</title>
+    <style>
+            body {
+                font-family: sans-serif;
+            }
+            
+            p {
+                font-size: 24px;
+                font-weight: bold;
+            }
+        
+            #output {
+                color: red;
+            }
+        
+    </style>
+</head>
+<body>
+    <h1>PTO V1</h1>
+    <p>A simple program that calculates the PTO(Paid time off) for 1yr at a fixed rate of 5hrs per paycheck paid bi-weekly.</p>
+
+    <ol>
+        <li>Start</li>
+        <li>Set var Yearpay = 26</li>
+        <li>Set var HoursPay = 5</li>
+        <li>Set var Total = Yearpay*HoursPerPay</li>
+        <li>set HoursPerPay*Yearpay = finance</li>
+        <li>Display "This is a calculator that will give you how many hours you earn a year for time Paid Off Time (PTO)"</li>
+        <li>End</li>
+    </ol>
+  <p>You earn <span id= "output"><script scr="calc.js"></script></span>hours per year.</p>
+  <script>
+
+    var output = document.getElementById('output')
+    var Yearpay = 26;
+    var HoursPerPay = 5;
+    var Total = HoursPerPay*Yearpay;
+    
+  </script>
+
+
+</body>
+</html>

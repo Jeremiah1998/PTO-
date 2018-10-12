@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+    font-size: 72px;
+}
+
+p {
+    color: blue;
+}
+
+.copyright {
+    color: #888
+}
+
+th {
+    font-style: bold;
+}
+
+.navigation li{
+    display: inline;
+}
+
+body {
+    font-family: sans-serif
+    
+}
+
+body {
+    background: #ccc
+}

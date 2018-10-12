@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NET Pay Program</title>
+</head>
+<body>
+    <h1>NET Pay Program</h1>
+    <p>Simple NET pay calculator. It takes your GROSS Pay and then deducts Federal, State, and FICA.
+         It has the option to deduct any additional amount from your check. Then it displays your NET pay.</p>
+        <!--FED 15%-->
+        <!--STATE 5%-->
+        <!--FICA 7.62%-->
+        <!--IF ANY ADDITIONAL-->
+    <ol>
+        <li>Start</li>
+        <li>Declare grosspay</li>
+        <li>Display "What's your gross pay per year"</li>
+        <li>Input real grosspay</li>
+        <li>Declare FED</li>
+        <li>Delacre State</li>
+        <li>Declare FICA</li>
+        <li>Set ADD = 0</li>
+        <li>Set Fed = grospay*.15</li>
+        <li>Set State = grosspay*.05</li>
+        <li>Set FICA = grosspay*.0762</li>
+        <li>Set NET = grosspay - (Fed + State + FICA + ADD)</li>
+        <li>Display "Your net pay is" + NET + "."</li>
+        <li>END</li>
+    </ol>
+    
+    <form action ="#" onsubmit ="event.preventdefault(); Netpay();">
+        <label for="gross">What is your gross pay</label>
+        <input name="gross" id="gross" type"text" placeholder="gross pay">
+        <label for="additional">Would you like to deduct an additional amount?</label>
+        <input name="additional" id="additional" type="text" value="0">
+        <button type="submit">submit</button>
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
